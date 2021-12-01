@@ -1,0 +1,198 @@
+body {
+    background: #dfee58;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: sans-serif;
+    margin: 1em;
+    position: relative;
+  }
+  
+  header {
+    background-color: #4caf50;
+    padding: 0.5em 1em;
+  }
+  
+  h1 {
+    max-width: 1170px;
+  }
+  
+  h1 {
+    display: block;
+    font-size: 34px;
+    line-height: 34px;
+    color: rgba(0, 16, 247, 0.87);
+  }
+  
+  #author-field{
+    border-radius: 12px;
+    padding: 10px 24px
+  
+  }
+  
+  #author-field:focus {
+    background-color: rgb(238, 240, 158);
+  }
+  #date-field{
+    border-radius: 12px;
+    padding: 10px 24px
+  }
+  
+  #date-field:focus {
+    background-color: rgb(238, 240, 158);
+  }
+  #content-field {
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-family: cursive;
+    font-size:medium;
+  }
+  
+  #content-field:focus{
+    background-color: rgb(238, 240, 158);
+  }
+  
+  #add-post-submit {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+    padding: 10px 24px
+  }
+  
+  #add-post-submit:hover{
+    background-color: royalblue; 
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+  }
+  #posts {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 50px,50px,50px,50px;
+    color: rgb(11, 12, 12);
+    width: 900px;
+    display:flex;
+    flex-flow: column nowrap;
+  } 
+  
+  .author {
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin: 20px;
+    font-weight:900;
+    row-gap: 50px;
+    display: flex;
+    align-self:center;
+    
+  }
+  
+  .date {
+    font-family: fantasy;
+    font-size: large;
+    font-weight: 300;  
+    row-gap: 50px;
+    display: flex;
+    align-self: center;
+  }
+  #avat {
+    border-radius: 12px;
+    width: 50px;  
+  }
+  
+  
+  /* .avat {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius:50%;
+    background-image: url(Avatar.png );
+    background-size: cover;
+    color: transparent;
+    align-self: center;
+    
+    } */
+  
+  #post {
+    padding: 8px;
+    margin: 10px;
+    width:500px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 50px;
+    gap:50px;
+    column-gap: normal;
+    justify-content:flex-start;
+    align-content: baseline; 
+    
+  }
+  #content{
+    background-color: rgb(246, 247, 220);
+    border: 5px double rgb(236 , 213, 4);
+    border-radius: 12px;
+    padding: 8px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 20px;
+     
+  }
+  .content {
+    font-family: cursive;
+    font-size: medium;
+    padding: 50px;
+    justify-self: self-start;
+  }
+  
+  #Buttons {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: flex-end;
+  }
+  #likeb{
+    cursor:alias;
+    padding:10px;
+    width: 20px;
+    height:16px;
+    background-color: rgb(246, 247, 220);
+    color:transparent;
+    display:flex;
+    justify-content: flex-end;
+  }
+  
+  #delete {
+    
+    width: 25px;
+    height: 20px;
+    padding:10px;
+    color: transparent;
+    display:flex;
+    justify-self: right;
+  }
+  #like {
+    
+    font-size: x-large;
+    font-family: initial;
+    font-weight: 700;
+    color:royalblue;
+    display:flex;
+    justify-self: right;
+  }
+  .p {
+    font-family: cursive;
+    font-style: italic;
+    color:royalblue;
+  }
+   /* #celebrate {
+    background-image: url(celebrate.png );
+    background-size: cover;
+    color: transparent;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    visibility: hidden;
+   } */
