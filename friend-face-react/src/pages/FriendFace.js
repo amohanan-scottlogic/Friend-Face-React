@@ -38,7 +38,7 @@ function FriendFacePage() {
           (a, b) => Number(new Date(a.date)) - Number(new Date(b.date))
         );
       console.log(sorted);
-      setLoadedPosts(sorted);
+      //setLoadedPosts(sorted);
     };
     sortHandler(sortType);
   }, [sortType]);

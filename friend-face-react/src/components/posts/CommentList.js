@@ -12,6 +12,7 @@ function CommentList(props) {
          author={comment.author}
          date={comment.date}
          likes={comment.likes}
+         avatar={comment.avatar}
          content={comment.content}
          
          />)}
